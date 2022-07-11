@@ -1,0 +1,44 @@
+$padding: 5px 0px 5px 0px !important;
+
+.swal2-container {
+    position: fixed;
+    z-index: 1000000000000 !important;
+}
+
+table{
+    thead{
+        tr{
+            th{
+                padding: $padding;
+
+                &:first-child{
+                    text-align: center;
+                    padding-left: 12px !important;
+                    padding-right: 12px !important;
+                }
+                &.action{
+                    text-align: center;
+                    padding-left: 12px !important;
+                    padding-right: 12px !important;
+                }
+            }
+        }
+    }
+    tbody {
+        tr{
+            td{
+                padding: $padding;
+                white-space: pre-wrap;
+                vertical-align: middle !important;
+                border-top: 1px solid #e9ecef;
+
+                &:first-child{
+                    text-align: center;
+                }
+                & button{
+                    margin: 2px;
+                }
+            }
+        }
+    }
+}

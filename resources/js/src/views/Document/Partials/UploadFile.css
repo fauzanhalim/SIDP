@@ -1,0 +1,35 @@
+.upload-btn-wrapper {
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn-upload {
+    width: 450px;
+    height: 300px;
+    cursor: pointer;
+    font-size: 20px;
+    /* color: #01A9AC; */
+    font-weight: bold;
+    padding: 8px 20px;
+    /* border-radius: 8px; */
+    /* border: 2px solid #01A9AC; */
+    background-color: white;
+}
+
+.upload-btn-wrapper input[type=file] {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    cursor: pointer;
+    font-size: 90px;
+    padding: 8px 20px;
+    position: absolute;
+}
+
+input[type="file"] {
+    cursor: pointer;
+}
